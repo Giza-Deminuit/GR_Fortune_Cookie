@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fortune Cookie</title>
 </head>
+<script src="scripts.js"></script>
+
+
 <body>
+    <div>
+
+        <div>
+             <input type="file" name="file" id="file" accept=".csv" > <br><br>
+             <input type="button" id="btnsubmit" value="Submit" onclick="readCSVFile();" >
+        </div>
     
+        <br><br>
+        <!-- List CSV file data -->
+        <table id="tblcsvdata" border="1" style="border-collapse: collapse;">
+             <thead>
+                  <tr>
+                      <th>S.no</th>
+                      <th>Username</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                  </tr>
+             </thead>
+             <tbody>
+    
+             </tbody>
+    
+        </table>
+    </div>
 </body>
 </html>
