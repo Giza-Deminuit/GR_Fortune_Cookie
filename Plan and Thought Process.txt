@@ -1,0 +1,2 @@
+Right now my plan is to use parralel arrays to store the book information. That way in the future when a book is selected based off a quality found in, say, index 5 
+of the myRating array, I can yoink the title and author from index 5 of those respective arrays for display.
