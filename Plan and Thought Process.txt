@@ -1,2 +1,24 @@
-Right now my plan is to use parralel arrays to store the book information. That way in the future when a book is selected based off a quality found in, say, index 5 
+Right now my plan is to use parallel arrays to store the book information. That way in the future when a book is selected based off a quality found in, say, index 5 
 of the myRating array, I can yoink the title and author from index 5 of those respective arrays for display.
+
+Custom select possibilities:
+My Rating - allows the user to choose an "Old favorite"
+Average Rating - allows user to choose between something unloved, something moderate, and something adored.
+Number of Pages - User chooses based on length. How distractible they are?
+Original Publication Year - User chooses between something old, aged, and shiny-new.
+Date Read - Automatically discard anything with a recent date (shouldn't recommend something they just read).
+            Additionally, should work with the MyRating column to provide choices for "old friend," "old enemy," "old acquaintance."
+
+
+Date Added - Could work with the Exclusive Shelf to determine how long the user had had it without reading it.
+Bookshelves - These can be custom, but I should probably figure out the most common tags. That will give me the ver important ability to 
+              allow the user to choose between genres.
+
+
+Bookshelves with Positions - too complicated to integrate with the other things I'm doing, plus if the user just wanted to go by order they could do so.
+Exclusive Shelf - crucial for determining the read status of the book. Could include an option to choose from currently reading.
+
+
+This URL:
+https://developers.google.com/books
+has book information that I might be able to use to suggest books that aren't even in the user's goodreads.
